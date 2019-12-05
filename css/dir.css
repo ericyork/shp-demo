@@ -19,9 +19,17 @@ section.dir-wrap {
 }
 a.dir-wk {
   border: 1px solid #D1D1D1;
-  padding: .5em;
   text-decoration: none;
 }
 a.dir-wk:hover {
   opacity: 0.85;
+}
+/*-- --*/
+.nine .thumb-wk {
+  background-image: url('../bin-img/shot1.png');
+  width: 100%;
+  height: auto;
+  padding-bottom: 56%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
