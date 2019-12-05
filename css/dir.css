@@ -3,19 +3,25 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1;
-  width: 100vw;
-  height: 100vh;
   margin: 0 auto;
   border: none;
   box-sizing: content-box;
   border-radius: 0;
+  background: #d1d1d1;
+  padding: 1em;
 }
 section.dir-wrap {
   padding: 1em;
-  background: #d1d1d1;
+  background: #E1E1E1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .25em;
 }
 a.dir-wk {
-  border: 2px solid #333;
+  border: 1px solid #D1D1D1;
   padding: .5em;
   text-decoration: none;
+}
+a.dir-wk:hover {
+  opacity: 0.85;
 }
