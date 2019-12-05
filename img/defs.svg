@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="e-lit">
+      <feColorMatrix
+        color-interpolation-filters="sRGB"
+        type="matrix"
+        values=".92 0 0 0 0
+                0 .67 0 0 0
+                0 0 0 0 0
+                0 0 0 1 0 "
+      />
+    </filter>
+    <filter id="w-lit">
+      <feColorMatrix
+        color-interpolation-filters="sRGB"
+        type="matrix"
+        values="0 .34 0 0 0
+                0 .54 0 0 0
+                0 0 .84 0 0
+                0 0 0 1 0 "
+      />
+    </filter>
+    <filter id="dim">
+      <feColorMatrix
+        color-interpolation-filters="sRGB"
+        type="matrix"
+        values=".49 0 0 0 0
+                0 .49 0 0 0
+                0 0 .45 0 0
+                0 0 0 1 0 "
+      />
+    </filter>
+  </defs>
+</svg>
